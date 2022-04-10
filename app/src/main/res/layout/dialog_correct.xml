@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:background="@drawable/quiz_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:layout_width="match_parent" android:layout_height="50dp"/>
+    <LinearLayout android:orientation="horizontal" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="@color/colorPrimaryDark" android:gravity="center" android:id="@+id/correctText" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="CORRECT"/>
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="50dp"/>
+    <Button android:textColor="@color/white" android:id="@+id/dialogNext" android:background="@drawable/button_bg" android:layout_width="300dp" android:layout_height="wrap_content" android:text="NEXT"/>
+    <View android:layout_width="match_parent" android:layout_height="50dp"/>
+</LinearLayout>
